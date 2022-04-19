@@ -18,8 +18,18 @@
  * DISPLAY volume
  */
 
-var r = 4;
-var phi = 3.14;
+// var r = 4;
+// var phi = 3.14;
 
-var volume = phi * r * r * r;
-console.log(volume);
+// var volume = phi * r * r * r;
+// console.log(volume);
+
+/**
+ * STUDY CASEs 2
+   var kalimat = Selamat belajar
+   var Nama = "" !
+ */
+
+var kalimat = 'Selamat belajar';
+var nama = 'vicky';
+console.log(kalimat + ' ' + nama);
