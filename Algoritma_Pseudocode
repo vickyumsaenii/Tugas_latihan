@@ -1,0 +1,28 @@
+STUDY CASEs
+ 1. Untuk menghitung massa jenis sebuah benda di perlukan rumus berikut:
+   algoritma
+    1. buat var massa = ""
+    2. buat var volume = ""
+    3. cari tau rho dengan cara membagi massa dan volume
+
+   pseudocode
+    1 STORE massa WITH "NUMBER"
+    2 STORE volume WITH "NUMBER"
+    3 SET rho WITH mass DIVIDE volume
+
+   STUDY CASEs
+    2. Diketahui rumus luas permukaan tabung adalah:
+
+    algoritma
+    1. buat var tinggi = ""
+    2. buat var r = ""
+    3. buat var phi = "3.14"
+    4. cari tau luas permukaan tabung dengan rumus (2 x phi x tinggi x r ) + (2 x phi x r x r)
+    5. cetak
+
+    pseudocode
+    1. STORE tinggi WITH "NUMBER"
+    2. STORE r WITH "NUMBER"
+    3. STORE phi WITH "3.14"
+    4. SET.(luas MULTIPLY phi MULTIPLY tinggi MULTIPLY r ) ADD.(2 MULTIPLY phi MULTIPLY r MULTIPLY r )
+    5. cetak
