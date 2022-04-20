@@ -52,9 +52,14 @@
  * var Nama = "" !
  */
 
+
 var name = "admin";
+var i = "angka"
 var status = true;
-var i = 1;
-for (var i = 1; i < 9; i++) {
-  console.log(nama + i + status);
+
+// rendom dari angka 1-9
+var i = 7;
+for (var i=1; i<9; i++)
+{
+console.log(name + i + status);
 }
