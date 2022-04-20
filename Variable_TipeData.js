@@ -1,6 +1,6 @@
 /**
- * STUDY CASEs
-1. Menghitung volume setengah bola dengan rumus:
+ * STUDY CASEs 1
+ * Menghitung volume setengah bola dengan rumus:
 
  * -Algoritma
  * 1. Buat variabel r = ""
@@ -24,12 +24,37 @@
 // var volume = phi * r * r * r;
 // console.log(volume);
 
+
+
 /**
  * STUDY CASEs 2
-   var kalimat = Selamat belajar
-   var Nama = "" !
+ * Menampilkan hasil seperti berikut:
+ * <title> Selamat belajar, nama! </titel>
+ * Keterangan: untuk nama orang dapat di ganti ganti dengan menggunakan variable.
+ *
+ * var kalimat = "Selamat belajar"
+ * var Nama = "" !
  */
 
-var kalimat = 'Selamat belajar';
-var nama = 'vicky';
-console.log(kalimat + ' ' + nama);
+// var kalimat = "Selamat belajar";
+// var nama = "vicky";
+// console.log(kalimat + " " + nama);
+
+
+
+/**
+ * STUDY CASEs 3
+ * Menampilkan hasil seperti berikut:
+ * <title> Selamat belajar, nama! </titel>
+ * Keterangan: untuk nama orang dapat di ganti ganti dengan menggunakan variable.
+ *
+ * var kalimat = Selamat belajar
+ * var Nama = "" !
+ */
+
+var name = "admin";
+var status = true;
+var i = 1;
+for (var i = 1; i < 9; i++) {
+  console.log(nama + i + status);
+}
