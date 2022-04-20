@@ -52,14 +52,13 @@
  * var Nama = "" !
  */
 
+// var name = "admin";
+// var i = "angka"
+// var status = true;
 
-var name = "admin";
-var i = "angka"
-var status = true;
-
-// rendom dari angka 1-9
-var i = 7;
-for (var i=1; i<9; i++)
-{
-console.log(name + i + status);
-}
+// // rendom dari angka 1-9
+// var i = 7;
+// for (var i=1; i<9; i++)
+// {
+// console.log(name + i + status);
+// }
