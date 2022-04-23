@@ -38,23 +38,23 @@
 
 // soal 3
 
-var number = 5;
-var temp = '';
+// var number = 5;
+// var temp = '';
 
-for (var i = 0; i < number; i++) {
-  for (var j = 0; j < number; j++) {
-    if (i === 0 || i === number - 1) {
-      temp += "#"
-    }else{
-      if (j === 0 || j === number - 1) {
-        temp += "#"
-      }else {
-        temp += ""
-      }
-    }
-  }
-  console.log(temp)
-  temp= ''
-}
+// for (var i = 0; i < number; i++) {
+//   for (var j = 0; j < number; j++) {
+//     if (i === 0 || i === number - 1) {
+//       temp += "#"
+//     }else{
+//       if (j === 0 || j === number - 1) {
+//         temp += "#"
+//       }else {
+//         temp += ""
+//       }
+//     }
+//   }
+//   console.log(temp)
+//   temp= ''
+// }
 
 
